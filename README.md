@@ -1,3 +1,4 @@
+image:https://img.shields.io/github/issues/wongnoubo/ESP8266-weather.svg
 使用：
 去ATK_ESP8266文件夹下面的wifista.c第14行修改wifi的ssid号和密码。编译烧录后即可使用。
 
