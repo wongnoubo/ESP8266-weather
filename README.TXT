@@ -1,57 +1,36 @@
-ÊµÑéÆ÷²Ä:
-	Õ½½¢V3\¾«Ó¢STM32F103¿ª·¢°å
+å®žéªŒå™¨æ:
+	æˆ˜èˆ°V3\ç²¾è‹±STM32F103å¼€å‘æ¿
 	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°ATK_ESP8266¸ßÐÔÄÜUART_WIFIÄ£¿éµÄÊ¹ÓÃ,ÕÆÎÕ»ù±¾µÄTCP£¬UDPÍ¨ÐÅ´®¿ÚATÖ¸ÁîÅäÖÃ·½·¨.
+å®žéªŒç›®çš„:
+	å­¦ä¹ ATK_ESP8266é«˜æ€§èƒ½UART_WIFIæ¨¡å—çš„ä½¿ç”¨,æŽŒæ¡åŸºæœ¬çš„TCPï¼ŒUDPé€šä¿¡ä¸²å£ATæŒ‡ä»¤é…ç½®æ–¹æ³•.
 	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPB5)
-	2,´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	3,´®¿Ú3(²¨ÌØÂÊ:115200£¬PB10/PB11)
-	4,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýFSMCÇý¶¯,FSMC_NE4½ÓLCDÆ¬Ñ¡/A10½ÓRS)
-	5,°´¼üKEY0(PE4)/KEY1(PE3)/KEY_UP(PA0,Ò²³ÆÖ®ÎªWK_UP)
-	6,SD¿¨,Í¨¹ýSDIO(SDIO_D0~D4(PC8~PC11),SDIO_SCK(PC12),SDIO_CMD(PD2))Á¬½Ó 
-	7,W25Q128(SPI FLASHÐ¾Æ¬,Á¬½ÓÔÚSPI2ÉÏ)
+ç¡¬ä»¶èµ„æº:
+	1,DS0(è¿žæŽ¥åœ¨PB5)
+	2,ä¸²å£1(æ³¢ç‰¹çŽ‡:115200,PA9/PA10è¿žæŽ¥åœ¨æ¿è½½USBè½¬ä¸²å£èŠ¯ç‰‡CH340ä¸Šé¢)
+	3,ä¸²å£3(æ³¢ç‰¹çŽ‡:115200ï¼ŒPB10/PB11)
+	4,ALIENTEK 2.8/3.5/4.3/7å¯¸TFTLCDæ¨¡å—(é€šè¿‡FSMCé©±åŠ¨,FSMC_NE4æŽ¥LCDç‰‡é€‰/A10æŽ¥RS)
+	5,æŒ‰é”®KEY0(PE4)/KEY1(PE3)/KEY_UP(PA0,ä¹Ÿç§°ä¹‹ä¸ºWK_UP)
+	6,SDå¡,é€šè¿‡SDIO(SDIO_D0~D4(PC8~PC11),SDIO_SCK(PC12),SDIO_CMD(PD2))è¿žæŽ¥ 
+	7,W25Q128(SPI FLASHèŠ¯ç‰‡,è¿žæŽ¥åœ¨SPI2ä¸Š)
 	8,24C02
-	9,ATK_ESP8266 WIFIÄ£¿é1¸ö.
+	9,ATK_ESP8266 WIFIæ¨¡å—1ä¸ª
+	10.3.5å¯¸LCDå±å¹•
 	
-	Á¬½Ó·½Ê½£º
-	Ä£¿éÓë´øÓÐÎÞÏßÍø¿¨µÄµçÄÔ»òÆäËûwifiÉè±¸Á¬½Ó£º²ÉÓÃwifiÁ¬½Ó
-	Ä£¿éÓë¿ª·¢°åÁ¬½Ó£¨TTL´®¿Ú·½Ê½£©£º
-	ATK-ESP8266 WIFIÄ£¿éÓë¾«Ó¢°åÁ¬½Ó·½Ê½£¨Í¨¹ý4¸ù¶Å°îÏßÁ¬½Ó£©£º
-	ATK-ESP8266 WIFIÄ£¿é    Õ½½¢V3\¾«Ó¢STM32¿ª·¢°å
+	è¿žæŽ¥æ–¹å¼ï¼š
+	æ¨¡å—ä¸Žå¸¦æœ‰æ— çº¿ç½‘å¡çš„ç”µè„‘æˆ–å…¶ä»–wifiè®¾å¤‡è¿žæŽ¥ï¼šé‡‡ç”¨wifiè¿žæŽ¥
+	æ¨¡å—ä¸Žå¼€å‘æ¿è¿žæŽ¥ï¼ˆTTLä¸²å£æ–¹å¼ï¼‰ï¼š
+	ATK-ESP8266 WIFIæ¨¡å—ä¸Žç²¾è‹±æ¿è¿žæŽ¥æ–¹å¼ï¼ˆé€šè¿‡4æ ¹æœé‚¦çº¿è¿žæŽ¥ï¼‰ï¼š
+	ATK-ESP8266 WIFIæ¨¡å—    æˆ˜èˆ°V3\ç²¾è‹±STM32å¼€å‘æ¿
 	   TXD<------------>PB11
 	   RXD<------------>PB10
 	   GND<------------>GND
 	   VCC<------------>3.3V\5V
 		
-ÊµÑéÏÖÏó:
-	±¾Àý³Ì£¬ÓÃÓÚÊµÏÖATK_ESP8266Ä£¿éµÄÈýÖÖ¹¤×÷Ä£Ê½£º´®¿ÚÎÞÏßAP£¨COM-AP£©¡¢´®¿ÚÎÞÏßSTA£¨COM-STA£©
-	ºÍ´®¿ÚÎÞÏßAP+STA£¨COM-AP+STA£©Õâ3¸öÄ£Ê½µÄ²âÊÔ£¬Ã¿¸öÄ£Ê½ÓÖ°üº¬TCP·þÎñÆ÷¡¢TCP¿Í»§¶ËºÍUDPÕâ3¸ö×ÓÄ£Ê½£¬
-	±¾½ÚÎÒÃÇ½«ÏêÏ¸½éÉÜÕâÐ©Ä£Ê½µÄÊ¹ÓÃ¡£Ä£¿éÅäÖÃ¿ÉÒÔÍ¨¹ý´®¿ÚÅäÖÃ£¬ÕâÀïÎÒÃÇÍ¨¹ý¿ª·¢°å´®¿ÚÅäÖÃ£¬²¢ÊµÏÖÍ¨ÐÅ¡£
-	¾ßÌåÊµÑéÏÖÏó£¬Çë²Î¿¼ÎÒÃÇµÄÎÄµµ<<ATK-ESP8266 WIFIÄ£¿éÊ¹ÓÃËµÃ÷(Õ½½¢V3&¾«Ó¢°æ)_AN1509A>>£¬ÑéÖ¤²âÊÔ²¿·Ö
-
-
-×¢ÒâÊÂÏî:
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´ÊÊÅäÆ÷(ÍÆ¼öÍâ½Ó12V 1AµçÔ´).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!! 
-	3,×Ö¿â¸üÐÂÊ±,Ðè×Ô±¸±ê×¼SD¿¨Ò»ÕÅ(¼´´ó¿¨,Ò²¿ÉÒÔÓÃTF¿¨+¿¨Ì×)£¬²¢¿½±´¹âÅÌ:5£¬SD¿¨¸ùÄ¿Â¼ÎÄ¼þ 
-	  ÀïÃæµÄËùÓÐÄÚÈÝµ½SD¿¨¸ùÄ¿Â¼,È»ºó½«SD¿¨²åµ½¿ª·¢°å.
-	4,¶ÔÓÚÕ½½¢V3¿ª·¢°å,P8ÐèÒªÓÃÌøÏß¶Ì½Ó:PB10(TX)ÓëGBC_RX£¬PB11(RX)ÓëGBC_TX
-	5,Èç¹û´¥ÃþÆÁ²»×¼£¬Çë°´×¡KEY0²»·Å£¬È»ºó°´¸´Î»£¬ËÉ¿ª¸´Î»£¬½øÈë´¥ÃþÆÁÐ£×¼¡£´ËÊ±ËÉ¿ªKEY0£¬Ö´ÐÐÐ£×¼£¬¼´¿É¶ÔÆÁÄ»½øÐÐÐ£×¼¡£ 
-	6,±¾Àý³ÌµÄÏêÏ¸ËµÃ÷£¬¼û¹âÅÌ£º9£¬ÔöÖµ×ÊÁÏ\1£¬ALIENTEK ²úÆ·×ÊÁÏ\13£¬ATK-ESP8266 WIFIÄ£¿é×ÊÁÏ\4£¬Ä£¿éÊ¹ÓÃËµÃ÷\
-	  ATK-ESP8266 WIFIÄ£¿éÊ¹ÓÃËµÃ÷(Õ½½¢V3&¾«Ó¢°æ)_AN1509A
-	
-	
-
-			ÕýµãÔ­×Ó@ALIENTEK 
-			¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-			µç»°£º020-38271790
-			´«Õæ£º020-36773971
-			¹ºÂò£ºhttp://eboard.taobao.com
-			¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-			¼¼ÊõÂÛÌ³£ºwww.openedv.com
-
+å®žéªŒçŽ°è±¡:
+	æœ¬ä¾‹ç¨‹ï¼Œç”¨äºŽå®žçŽ°ATK_ESP8266æ¨¡å—çš„ä¸‰ç§å·¥ä½œæ¨¡å¼ï¼šä¸²å£æ— çº¿APï¼ˆCOM-APï¼‰ã€ä¸²å£æ— çº¿STAï¼ˆCOM-STAï¼‰
+	å’Œä¸²å£æ— çº¿AP+STAï¼ˆCOM-AP+STAï¼‰è¿™3ä¸ªæ¨¡å¼çš„æµ‹è¯•ï¼Œæ¯ä¸ªæ¨¡å¼åˆåŒ…å«TCPæœåŠ¡å™¨ã€TCPå®¢æˆ·ç«¯å’ŒUDPè¿™3ä¸ªå­æ¨¡å¼ï¼Œ
+	æœ¬èŠ‚æˆ‘ä»¬å°†è¯¦ç»†ä»‹ç»è¿™äº›æ¨¡å¼çš„ä½¿ç”¨ã€‚æ¨¡å—é…ç½®å¯ä»¥é€šè¿‡ä¸²å£é…ç½®ï¼Œè¿™é‡Œæˆ‘ä»¬é€šè¿‡å¼€å‘æ¿ä¸²å£é…ç½®ï¼Œå¹¶å®žçŽ°é€šä¿¡ã€‚
+	å…·ä½“å®žéªŒçŽ°è±¡ï¼Œè¯·å‚è€ƒæˆ‘ä»¬çš„æ–‡æ¡£<<ATK-ESP8266 WIFIæ¨¡å—ä½¿ç”¨è¯´æ˜Ž(æˆ˜èˆ°V3&ç²¾è‹±ç‰ˆ)_AN1509A>>ï¼ŒéªŒè¯æµ‹è¯•éƒ¨åˆ†
 
 
 
